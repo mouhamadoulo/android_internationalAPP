@@ -3,11 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context="com.example.ibrahim.international_app.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txvLanguage"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/lang" />
+
+    <Spinner
+        android:id="@+id/cylspinner"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/availablelanguages">
+    </Spinner>
+
+    <Button
+        android:id="@+id/btnLaunch"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Démarrer l'autre activité"/>
+
 
 </LinearLayout>
