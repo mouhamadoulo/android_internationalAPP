@@ -50,6 +50,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
-        
+
     }
 }

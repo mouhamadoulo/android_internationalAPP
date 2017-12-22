@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">International_APP</string>
-    <string name="lang">Choose your language</string>
+    <string name="lang">Choisissez votre langage</string>
     <string name="launch">Démarrer l\'activité dépendant du langage</string>
+
     <string-array name="availablelanguages">
         <item>Anglais</item>
         <item>Français</item>
@@ -9,6 +10,7 @@
         <item>Polonais</item>
         <item>Espagnol</item>
     </string-array>
-
+    
+    <string name="message">Le message en Français</string>
 
 </resources>

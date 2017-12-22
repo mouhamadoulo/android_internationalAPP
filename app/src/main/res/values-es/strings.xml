@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">International_APP</string>
+    <string name="lang">Seleccionar idioma</string>
+    <string name="launch">Iniciar la actividad</string>
+
+    <string-array name="availablelanguages">
+        <item>Inglés</item>
+        <item>Francés</item>
+        <item>Italiano</item>
+        <item>Polaco</item>
+        <item>Español</item>
+    </string-array>
+
+    <string name="message">El mensaje en español</string>
+
+</resources>
