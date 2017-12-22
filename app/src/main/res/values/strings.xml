@@ -8,5 +8,6 @@
         <item>Polonais</item>
         <item>Espagnol</item>
     </string-array>
+    <string name="launch">Démarrer l'activité dépendant du langage</string>
 
 </resources>

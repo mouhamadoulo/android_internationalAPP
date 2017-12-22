@@ -30,7 +30,8 @@
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Démarrer l'autre activité"/>
+        android:text="@string/launch"
+        android:onClick="launchActivity"/>
 
 
 </LinearLayout>
