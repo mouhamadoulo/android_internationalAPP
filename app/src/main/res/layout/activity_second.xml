@@ -10,13 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/message"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:textColor="@color/textcolor"
         android:background="@color/textviewcolor"
         android:padding="20dp"
         android:layout_margin="20dp"/>
     
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_gravity="center"
         android:background="@drawable/flag"
@@ -25,6 +28,9 @@
     <TextView
         android:background="@color/textviewcolor"
         android:textColor="@color/textcolor"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/message"
